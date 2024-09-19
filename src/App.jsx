@@ -16,6 +16,7 @@ function App() {
   return (
     <div>
       <div>NUMBER GAMMMEEEEEE</div>
+      <div>Second header hereee!!!!</div>
       <div>{number}</div>
       <button onClick={increase}>increase</button>
       <button onClick={decrease}>decrease</button>
