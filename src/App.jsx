@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div>
+      <div>NUMBER GAMMMEEEEEE</div>
       <div>{number}</div>
       <button onClick={increase}>increase</button>
       <button onClick={decrease}>decrease</button>
