@@ -8,11 +8,16 @@ function App() {
   function increase(){
     setNumber(number+1);
   }
+  
+  function decrease(){
+    setNumber(number-1);
+  }
 
   return (
     <div>
       <div>{number}</div>
       <button onClick={increase}>increase</button>
+      <button onClick={decrease}>decrease</button>
     </div>
   )
 }
